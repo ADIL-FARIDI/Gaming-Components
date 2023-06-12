@@ -1,0 +1,16 @@
+https://www.pcgamer.com/best-pc-case/
+https://codepen.io/
+https://www.youtube.com/c/OnlineTutorials4Designers
+https://getbootstrap.com/docs/4.0/components/navbar/
+https://getbootstrap.com/docs/4.0/components/modal/
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+https://fontawesome.com/
+https://github.com/bhagwanZaki
+https://www.newindianexpress.com/expressdeals/electronics/best-gaming-motherboards-in-india/184.html
+
+
+
+https://www.youtube.com/watch?v=uGgRhKN5_Ao&feature=youtu.be
+
+margin-top: -10px;
+margin-bottom: -10px;

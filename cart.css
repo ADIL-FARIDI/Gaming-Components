@@ -1,0 +1,7 @@
+.cartListDiv{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #c5c5c5;
+}

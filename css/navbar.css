@@ -1,0 +1,222 @@
+.topnav {
+  overflow: hidden;
+  background-color: rgb(35, 35, 35);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topnav a,
+.topnav div {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav div:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.topnav div.active {
+  background-color: #210101;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    flex-direction: column;
+    padding: 14px 6px;
+
+  }
+  .topnav div{
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive div {
+    float: none;
+    display: block !important;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+.button {
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: rgb(197, 197, 197);
+  padding: auto;
+  position: relative;
+  overflow: hidden;
+  transition: color -1s;
+}
+
+.button:hover {
+  color: #8f0000;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -90px;
+  width: 150%;
+  height: 100%;
+  background-color: #8f0000;
+  transform: scaleX(0) skewX(-35deg);
+  transform-origin: left;
+  z-index: -1;
+  transition: transform 0.9s;
+}
+
+.button:hover::before {
+  transform: scaleX(1) skewX(35deg);
+}
+
+
+body {
+    background-color: #1f1f1f;
+    color: #1f1f1f;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: #1f1f1f;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.button {
+    flex: 1 1 auto;
+    margin: auto;
+    padding: auto;
+    border: 0px solid #ec3333;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.button:after {
+    position: absolute;
+    transition: 0.3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+}
+.button:nth-of-type(2):after {
+    left: 0;
+}
+.button:nth-of-type(3):after {
+    right: 0;
+    left: auto;
+}
+.button:nth-of-type(4):after {
+    left: 0;
+    bottom: auto;
+    top: -3px;
+    width: 100%;
+}
+.button:nth-of-type(5):after {
+    height: 120%;
+    left: -10%;
+    transform: skewX(15deg);
+    z-index: -1;
+}
+.button:hover {
+    cursor: pointer;
+}
+.button:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.button:hover:nth-of-type(1) {
+  transform: scale(1);
+}
+.button:hover:nth-of-type(1):after {
+  width: 0%;
+}
+
+.button:hover:nth-of-type(4):after {
+    top: calc(100% - 3px);
+}
+.button:hover:nth-of-type(5) {
+    color: #520303;
+}
+.button:hover:nth-of-type(5):after {
+    left: -10%;
+    width: 100%;
+}
+.button:hover:nth-of-type(6) {
+    border-radius: 0px;
+    color: #520303;
+}
+.button:hover:nth-of-type(6):after {
+    width: auto;
+}
+.button:hover:nth-of-type(7) {
+    transform: scale(1);
+}
+.button:hover:nth-of-type(7):after {
+    width: 0%;
+}
+.button:hover:nth-of-type(8) {
+    color: #520303;
+}
+.button:hover:nth-of-type(8):after {
+    width: 0%;
+}
+.button:hover:nth-of-type(9) {
+  color: #520303;
+    box-shadow: 0px 0px 0px 3px #f7f7f7;
+}
+.button:hover:nth-of-type(9):after {
+    width: 0%;
+    color: #520303;
+}
+
+.button:hover:nth-of-type(11) {
+  transform: scale(1);
+}
+.button:hover:nth-of-type(11):after {
+  width: 0%;
+}

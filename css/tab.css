@@ -1,0 +1,11 @@
+.mointorArea{
+    display: none;
+    /* background: #ededed; */
+    /* padding: 15px; */
+}
+
+.mointorArea.current{
+    display: block;
+    padding-top: 55px;
+
+}

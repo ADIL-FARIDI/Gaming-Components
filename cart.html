@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="cart.css" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico" />
+  </head>
+
+  <body>
+    <div id="cartList"></div>
+    <button onclick="checkout()">Proceed to checkout</button>
+
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script type="text/javascript" src="cart.json"></script>
+    <script>
+      function checkout() {
+        alert("Thankyou for shopping");
+        localStorage.setItem("cartItem", "");
+        window.location.href = "home.html";
+      }
+      let mainDiv = document.getElementById("cartList");
+      JSON.parse(localStorage.getItem("cartItem")).map((value, i) => {
+        let divTag = document.createElement("div");
+        divTag.classList.add("cartListDiv");
+
+        let nameH1 = document.createElement("h1");
+        nameH1.innerHTML = value.name;
+
+        let priceH1 = document.createElement("h1");
+        priceH1.innerHTML = value.price;
+
+        divTag.appendChild(nameH1);
+        divTag.appendChild(priceH1);
+
+        mainDiv.appendChild(divTag);
+      });
+    </script>
+  </body>
+</html>

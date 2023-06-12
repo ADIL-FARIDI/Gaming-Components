@@ -1,0 +1,4 @@
+auto close tag
+auto rename
+live server
+prettier code

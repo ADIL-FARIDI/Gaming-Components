@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/tab.css" />
+    <link rel="stylesheet" href="imagess.css" />
+    <link rel="stylesheet" href="home.html" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="aboutus.html">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="tab.js"></script>
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="home.html">HOME</a>
+      <div class="button" data-tab="tab-1">Monitor</div>
+      <div class="button" data-tab="tab-2">Cabinet</div>
+      <div class="button" data-tab="tab-3">MotherBoard</div>
+      <div class="button" data-tab="tab-4">CPU</div>
+      <div class="button" data-tab="tab-5">Storage</div>
+      <div class="button" data-tab="tab-6">Ram</div>
+      <div class="button" data-tab="tab-8">GPU</div>
+      <div class="button" data-tab="tab-9">CoolingSystem</div>
+      <div class="button" data-tab="tab-10">Keyboard</div>
+      <div class="button" data-tab="tab-11">Mouse</div>
+      
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="mainArea">
+      <section class="mointorArea current" id="tab-1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1 class="center__text glitch is-glitching" data-text="Monitor">Monitor</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/1Monitors/3LG .jpg" class="cardImg3" />
+                  <h2>LG Ultragear 
+                      32GK650F
+                  </h2>
+                  <div class="price">
+                    <b><h4>₹32,710</h4></b>
+                  </div>
+                  <p>LG Ultragear 80 cm (32 inches) QHD (2K) Gaming Monitor with 144Hz,1ms, Radeon Freesync, Display Port, HDMI x 2-32GK650.</p>
+                    <a href="https://www.amazon.in/LG-Ultragear-Gaming-Monitor-Freesync/dp/B07FLGR2PN" target="_blank" style="color: #9c0000";>*moreinfo</a> 
+                  <button onclick="addToCart('LG Ultragear 32GK650F','₹32,710') "class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/1Monitors/1Msi.jpg" class="cardImg" />
+                  <h2>MSI OPTIX MAG251RX</h2>
+                  <div class="price">
+                    <b><h4>₹24,999</h4></b>
+                    </div> 
+                  <p>MSI OPTIX MAG251RX 24.5" 240Hz 1ms IPS Gaming Monitor (FHD 1920x1080) / Non-Glare with Super Narrow Bezel / 16:9 /, Black.</p>
+                    <a href="https://www.amazon.in/dp/B083K13KGM?ref_=cm_sw_r_cp_ud_dp_JDBBY1D4NVJNWPN9ZWFS" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button onclick="addToCart('MSI OPTIX MAG251RX','₹24,999') "class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>  
+             <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/1Monitors/6LG.jpg" class="cardImg6"/>
+                  <h2>LG Ultragear
+                    27GL650F</h2>
+                    <div class="price">
+                      <b><h4>₹20,186</h4></b>
+                    </div>
+                  <p>LG Ultragear 69 cm IPS FHD, HDR 10, Gaming LCD Monitor, Display Port, HDMI x 2,Pivot Stand, 144Hz, 1ms, 1920 x 1080 Pixels,Black.</p>
+                  <a href="https://www.amazon.in/dp/B09GW8JFCQ?ref_=cm_sw_r_cp_ud_dp_ABZ10EWJJWPKTJDZZF2W" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button onclick="addToCart('LG Ultragear 27GL650F','₹20,186') "class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+            </div>   
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/1Monitors/2samsung.jpg" class="cardImg2" />
+                  <h2>Samsung Curved Black</h2>
+                  <div class="price">  
+                    <b><h4>₹19,790</h4></b>
+                  </div>
+                 <p>Samsung 27 inch (68.6 cm) 240 Hz, Bezel Less Curved Gaming Monitor (Dark Blue Gray)- Computer Monitor, 1920 x 1080p Resolution, HDMI.</p>
+                 <a href="https://www.amazon.in/dp/B01GFPGHVE?ref_=cm_sw_r_cp_ud_dp_FS8QRWQ4T9FVFFNYSDZV" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                 <button onclick="addToCart('Samsung Curved Black','₹19,790') "class="cart-button">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added">Added to Cart</span>
+                  <i class="fas fa-shopping-cart"></i>
+                  <i class="fas fa-box"></i>
+                </button>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/1Monitors/4MSi.jpg" class="cardImg4" />
+                  <h2>MSI Optix G271</h2>
+                  <div class="price">
+                    <b><h4>₹18,999</h4></b>
+                  </div>
+                 <p>MSI Optix G271-68.58 cm (27 inch) IPS Gaming Monitor-Full HD - 144hz Refresh Rate - 1ms Response time-AMD Freeync for Esport.</p>
+                 <a href="https://www.amazon.in/dp/B08B8JVWNX?ref_=cm_sw_r_cp_ud_dp_YSB6EFWAAQPSK9SZ546Y" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                 <button onclick="addToCart('MSI Optix G271','₹18,999') "class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/1Monitors/5MSi.jpg" class="cardImg5" />
+                  <h2>MSI Optix G241</h2>
+                  <div class="price">
+                    <b><h4>₹17,499</h4></b>
+                  </div>
+                  <p>MSI Optix G241-60.96 cm (24 inch) IPS Gaming Monitor – Full HD - 144hz Refresh Rate - 1ms Response time – AMD Freeync for Esports.</p>
+                  <a href="https://www.amazon.in/dp/B08B8LBM3S?ref_=cm_sw_r_cp_ud_dp_N36GN2SHH4GZW822RYCY" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button onclick="addToCart('MSI Optix G241','₹17,499') "class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added To Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+            </div>  
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/1Monitors/8.ViewSonic.jpg" class="cardImg8" />
+                  <h2>ViewSonic</h2>
+                  <div class="price">
+                    <b><h4>₹16,499</h4></b>
+                  </div>
+                  <p>ViewSonic VX2458-C-MHD 60.96 cm (24 Inch)  Full HD LED 1080p, 1ms, Curved Gaming Monitor, HDMI & DP, Refresh Rate 144Hz.</p>
+                  <a href="https://www.amazon.in/dp/B07H5GNR18?ref_=cm_sw_r_cp_ud_dp_5N9WNZJJKNXTAWT6NSAH" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button onclick="addToCart('ViewSonic','₹16,499') "class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+            </div>         
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/1Monitors/7Acer.jpg" class="cardImg7" />
+                  <h2>Acer Nitro QG221Q</h2>
+                  <div class="price">
+                    <b><h4>₹9,499</h4></b>
+                  </div>
+                  <p>21.5 Inch (54.61 cm) Full HD Gaming Monitor I VA Panel I 1 MS Response, 75 Hz Refresh Rate, 250 Nits Brightness. </p>
+                  <a href="https://www.amazon.in/dp/B07S31CP9G?ref_=cm_sw_r_cp_ud_dp_GCV994PJNKBTNTYMTT7M" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button onclick="addToCart('Acer Nitro QG221Q','₹9,499')" class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mointorArea" id="tab-2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="center">
+                <h1 class="center__text glitch is-glitching" data-text="Cabinet">Cabinet</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/2Cabinet/1CHIPTRONEX.jpeg" class="cabinetimg1" />
+                  <h2>CHIPTRONEX X310B </h2>
+                  <div class="price">
+                    <b><h4>₹2,435</h4></b>
+                  </div>
+                  <p>Provides one 120mm fan pre-installed with this cabinet.Ports included are USB 3.0, 2 x USB 2.0 and HD Audio In. Dimensions stand at 35 x 18.5 x 42 cm.
+                  </p>
+                  <a href="https://www.amazon.in/dp/B078Z88HT9?ref_=cm_sw_r_cp_ud_dp_F0Y7MV64BCWFP3HTXFX7" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button onclick="addToCart('CHIPTRONEX X310B ','₹2,435')" class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/2Cabinet/2Ant.jpeg" class="cabinetimg2" />
+                  <h2>Ant Esports ICE-130AG</h2>
+                  <div class="price">
+                    <b><h4>₹2,900.</h4></b>
+                    </div> 
+                  <p>Supports a big GPU of up to 265mm and a cooler height of 150mm. Dimensions-34.4 x 19.6 x 43cm Extra features include support ATX and M-ATX motherboards.
+                  </p>
+                  <a href="https://www.amazon.in/dp/B08D6G6LMK?ref_=cm_sw_r_cp_ud_dp_4TP4SSAX6CXFD758WX6G" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>  
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/2Cabinet/3Corsair.jpeg" class="cabinetimg3"/>
+                  <h2>Corsair CC-9011050</h2>
+                    <div class="price">
+                      <b><h4>₹3,795</h4></b>
+                    </div>
+                  <p>Provide cable routing for easy cable management. Dimensions-47.75 x 19.81 x 42.93 and have a USB 3.0 internal connector at the front with 7 PCIe slots.
+                  </p>
+                  <a href="https://www.amazon.in/dp/B00I6BJATW?ref_=cm_sw_r_cp_ud_dp_MBGX62MV31PS8GTNEK6N" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>   
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/2Cabinet/4Cooler.jpeg" class="cabinetimg4" />
+                  <h2>Cooler Master K501L RGB V2 </h2>
+                  <div class="price">  
+                    <b><h4>₹4,549</h4></b>
+                  </div>
+                 <p>Dimensions stand at 49.6 x 21.7 x 46.9 cm. The cooler master provides the cabinet with the input of USB 3.0 and 2.0 ports as well. Stronger tempered glass
+                </p>
+                <a href="https://www.amazon.in/dp/B0846LL1HB?ref_=cm_sw_r_cp_ud_dp_E4A6ZCV7HSPGW1E40J24" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                <button class="cart-button">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added">Added to Cart</span>
+                  <i class="fas fa-shopping-cart"></i>
+                  <i class="fas fa-box"></i>
+                </button>
+                
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/2Cabinet/5Thermaltake.jpeg" class="cabinetimg5" />
+                  <h2>Thermaltake H200</h2>
+                  <div class="price">
+                    <b><h4>₹5,459</h4></b>
+                  </div>
+                  <p>It comes in with the support of USB 3.0 ports on the front panel.Dimensions are 52.1 x 49.3 x 26.9 cm which is for GPU up to 320mm in length and CPU cooler up to 180mm.
+                  </p>
+                  <a href="https://www.amazon.in/dp/B07SNGYFYY?ref_=cm_sw_r_cp_ud_dp_3C66BDQK8T9DTG21H255" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/2Cabinet/6LIAN.jpeg" class="cabinetimg6" />
+                  <h2>LIAN LI LANCOOL II</h2>
+                  <div class="price">
+                    <b><h4>₹8,999</h4></b>
+                  </div>
+                  <p>The three fans in the front give an optimisation cooling solution.Users can also choose to add fans as per their requirements on PSU chamber.
+                  </p>
+                  <a href="https://www.amazon.in/dp/B09MLX3W5Z?ref_=cm_sw_r_cp_ud_dp_F8B8KNWE8HTQ2XGQJ4DW" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added To Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>  
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/2Cabinet/7.ZEBRONICS.jpg" class="cabinetimg7" />
+                  <h2>ZEBRONICS ZEB-947W </h2>
+                  <div class="price">
+                    <b><h4>₹8,899</h4></b>
+                  </div>
+                  <p>947W Valhalla Premium Gaming Chassis, Supports Micro ATX Motherboard, RGB Sync Support, AIO Cooler, Dual 120mm RGB Cooling Fans,Acrylic Front Panel(W)
+                  </p>
+                  <a href="https://www.amazon.in/dp/B08T8HB16K?ref_=cm_sw_r_cp_ud_dp_ZCDPGJK5VZ34ZVGNB92V" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>         
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/2Cabinet/8Cooler Master.jpg" class="cabinetimg8" />
+                  <h2>Cooler Master TD500 </h2>
+                  <div class="price">
+                    <b><h4>₹9,099</h4></b>
+                  </div>
+                  <p>Mesh Triple ARGB Full Tower Gaming Cabinet with Dual 360mm Radiator Support and Crystalline Tempered Glass (White). Provides high airflow, dust filtration. 
+                  </p>
+                  <a href="https://www.amazon.in/dp/B08412JPCH?ref_=cm_sw_r_cp_ud_dp_GP9TH6MVD6ZCEV7EFW20" target="_blank"  style="color: #9c0000";>*moreinfo</a> 
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </section>
+      <section class="mointorArea" id="tab-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="center">
+                <h1 class="center__text glitch is-glitching" data-text="MotherBoard">MotherBoard</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/3Motherboard/1Aorus.jpg" class="motherboardimg1" />
+                  <h2>Aorus Gigabyte AMD B450 EliteV2</h2>
+                  <div class="price">
+                    <b><h4>₹9,199</h4></b>
+                  </div>
+                  <p>Supports AMD 3rd Gen Ryzen/ 2nd Gen Ryzen/ 1st Gen Ryzen/ 2nd Gen Ryzen with Radeon Vega Graphics
+                    Dual Channel Non-ECC Unbuffered DDR4, DVI-D Ports for Multiple Display
+                  </p>
+                  <a href="https://www.amazon.in/dp/B07GYRW53K?ref_=cm_sw_r_cp_ud_dp_W9MHB7DQCYNEECZ8ZS9N" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/3motherboard/2Asus.jpg" class="motherboardimg2" />
+                  <h2>Asus TUF B450M AMD Ryzen3</h2>
+                  <div class="price">
+                    <b><h4>₹10,499</h4></b>
+                    </div> 
+                  <p>Amd AM4 socket: ready for 3rd & 2nd Gen AMD Ryzen processors
+                    Gaming performance:Onboard Dual M.2, dual-channel 4x DIMM, Max 64GBDDR4 features data transfer speed-4400MHz.
+                  </p>
+                  <a href="https://www.amazon.in/dp/B08K94HJYJ?ref_=cm_sw_r_cp_ud_dp_E6P199AW32TKTW4TXBJT" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>  
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/3motherboard/3MSI.jpg" class="motherboardimg3"/>
+                  <h2>MSI Components X570-A Pro</h2>
+                    <div class="price">
+                      <b><h4>14,069</h4></b>
+                    </div>
+                  <p>Supports 2nd/3rd Gen AMD Ryzen/Ryzen with Radeon Vega Graphics Desktop Processors,AUDIO BOOST 4  technology with NAHIMIC 3 software enhancement for immersive experiences.
+                  </p>
+                  <a href="https://www.amazon.in/dp/B07TDST84Q?ref_=cm_sw_r_cp_ud_dp_MQ8F343YFXK4BY91BPBG" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>   
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/3motherboard/4MSI.jpg" class="motherboardimg4" />
+                  <h2>MSI MAG B560M Mortar Micro-ATX </h2>
+                  <div class="price">  
+                    <b><h4>₹16,045</h4></b>
+                  </div>
+                 <p>Supports 11th/10th Gen Intel Core/Pentium processors.
+                  Supports the latest Gen 4 PCI-E solution with up to 64GB/s for maximum transfer speed with quality component digital power IC </p>
+                  <a href="https://www.amazon.in/dp/B08YHTZ7Z7?ref_=cm_sw_r_cp_ud_dp_0FKVXQKN01SM9EWYSH4R" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added">Added to Cart</span>
+                  <i class="fas fa-shopping-cart"></i>
+                  <i class="fas fa-box"></i>
+                </button>
+                
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/3motherboard/5Gigabyte.jpg" class="motherboardimg5" />
+                  <h2>Gigabyte X570 Gaming X </h2>
+                  <div class="price">
+                    <b><h4>₹16,799</h4></b>
+                  </div>
+                  <p>GIGABYTE GbE-LAN with Bandwidth Management, Advanced Thermal Design with Enlarge Heatsink,
+                    RGB FUSION 2.0 with Multi-Zone Addressable LED, Dual Ultra-Fast NVMe PCIe 4.0.               
+                  </p>
+                  <a href="https://www.amazon.in/dp/B07TSKR811?ref_=cm_sw_r_cp_ud_dp_ZAQ1K9HBW4G5DY1V779T" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/3motherboard/6Gigabyte.jpg" class="motherboardimg6" />
+                  <h2>Gigabyte AMD B550 V2</h2>
+                  <div class="price">
+                    <b><h4>₹19,399</h4></b>
+                  </div>
+                  <p>Supports 3rd Gen AMD Ryzen Processors,
+                    Dual Channel ECC / Non-ECC Unbuffered DDR4,
+                    Smart Fan 5 Features Multiple Temperature Sensors , Hybrid Fan Headers with FAN STOP.
+                  </p>
+                  <a href="https://www.amazon.in/dp/B08K13P8V7?ref_=cm_sw_r_cp_ud_dp_BHH0EEJ3H2SMR3BDA09T" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added To Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>  
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/3motherboard/7Asus.jpg" class="motherboardimg7" />
+                  <h2>Asus ROG Strix B550-F </h2>
+                  <div class="price">
+                    <b><h4>₹21,650</h4></b>
+                  </div>
+                  <p>AMD AM4 Socket and PCIe 4. The perfect pairing for 3rd Gen AMD Ryzen CPU.
+                    High-performance Gaming Networking: On-board WiFi 6 (802. 11ax), Bluetooth V5.1 and 2.5Gb ASUS LANGuard.                 
+                  </p>
+                  <a href="https://www.amazon.in/dp/B088VSTS9H?ref_=cm_sw_r_cp_ud_dp_NWR0RA4P14GHPHX7D5NV" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>         
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/3motherboard/8Asus.jpg" class="motherboardimg8" />
+                  <h2>Asus AMD X570 ATX </h2>
+                  <div class="price">
+                    <b><h4>₹33,399</h4></b>
+                  </div>
+                  <p>AM4 socket: Ready for 2nd and 3rd Gen AMD Ryzen processors to maximize connectivity and speed with up to two M.2 Drives.
+                    12+4 power stages with ProCool II power connector.                   
+                  </p>
+                  <a href="https://www.amazon.in/dp/B07YWF1G9S?ref_=cm_sw_r_cp_ud_dp_F98YACTE1SFYY8XNMX6C" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </section>
+      <section class="mointorArea" id="tab-4">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="center">
+                <h1 class="center__text glitch is-glitching" data-text="CPU">CPU</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/4Cpu/1.AMD 5000 Series Ryzen 9 5900X.jpg" class="cpuimg1" />
+                  <h2>AMD 5000 Series Ryzen 9 5900X Desktop Processor 12 Cores 24</h2>
+                  <div class="price">
+                    <b><h4>₹38,299</h4></b>
+                  </div>
+                  <p>12 Cores & 24 Threads, 70MB Cache
+                    Base Clock: 3.7 GHz, Max Boost Clock: up to 4.8 GHz
+                    Memory Support: DDR4 Upto 3200MHz, Memory Channels: 2, TDP: 105 W, PCI Express Generation : PCIe Gen 4                    
+                    REASONS TO BUY
+                    +Awesome gaming performance
+                    +Strong value for money
+                    +Cooler included in box
+                    REASONS TO AVOID
+                    -High power consumption
+                    -Potentially high platform costs at launch
+                    </p>
+                  <a href="https://www.amazon.in/dp/B08164VTWH?ref_=cm_sw_r_cp_ud_dp_14VCEC1994K1K82SX8TM" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/4Cpu/2Intel Core i5 10400F.jpg" class="cpuimg2" />
+                  <h2>Intel Core i5 10400F</h2>
+                  <div class="price">
+                    <b><h4>₹10,725</h4></b>
+                    </div> 
+                  <p>Cores: 6Threads: 12Base Clock: 2.9 GHzTurbo Clock: 4.3 GHzOverclocking: NoL3 Cache: 12 MBTDP: 65 W
+                    REASONS TO BUY
+                    +Affordable mid-range performance
+                    +Cooler included in box
+                    REASONS TO AVOID
+                    -Doesn't support overclocking
+                    </p>
+                  <a href="https://www.amazon.in/dp/B086MHSTWN?ref_=cm_sw_r_cp_ud_dp_KWKZPR6AXJ6NXRJF30S8" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>  
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/4Cpu/3. Intel Core i5 12400.jpg" class="cpuimg3"/>
+                  <h2>Intel Core i5 12400</h2>
+                    <div class="price">
+                      <b><h4>₹20,490</h4></b>
+                    </div>
+                  <p>Cores: 6Threads: 12Base Clock: 2.5 GHzBoost Clock: 4.4 GHzOverclocking: KindaL3 Cache: 18 MBTDP: 65 W
+                    REASONS TO BUY
+                    +Great stock performance
+                    +Low power from 65W
+                    +Doesn't need a beefy cooler
+                    +It really goes when overclocked
+                    REASONS TO AVOID
+                    -Requires a whole new motherboard
+                    -BCLK OC may get patched out
+                    </p>
+                  <a href="https://www.amazon.in/dp/B09NMPD8V2?ref_=cm_sw_r_cp_ud_dp_0T76VSBM6CE1T54W06BA" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>   
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/4Cpu/4AMD Ryzen 5 5600X.jpg" class="cpuimg4" />
+                  <h2>AMD Ryzen 5 5600X</h2>
+                  <div class="price">  
+                    <b><h4>₹19,399</h4></b>
+                  </div>
+                 <p>Cores: 6Threads: 12Base Clock: 3.7 GHzBoost Clock: 4.6 GHzOverclocking: YesL3 Cache: 32 MBTDP: 65 W 
+                  REASONS TO BUY
+                  +Awesome gaming performance
+                  +Strong value for money
+                  +Decent overclocking potential
+                  +Wraith Stealth included
+                  REASONS TO AVOID
+                  -$50 more than the 3600X
+                  -Lags behind Core i5 12600K                  
+                 </p>
+                  <a href="https://www.amazon.in/dp/B08166SLDF?ref_=cm_sw_r_cp_ud_dp_VQF7QZM3E41GHGZTJ72K" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                  <span class="add-to-cart">Add to cart</span>
+                  <span class="added">Added to Cart</span>
+                  <i class="fas fa-shopping-cart"></i>
+                  <i class="fas fa-box"></i>
+                </button>
+                
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/4Cpu/5AMD Ryzen 7 5700G.jpg" class="cpuimg5" />
+                  <h2>AMD Ryzen 7 5700G</h2>
+                  <div class="price">
+                    <b><h4>₹27,735</h4></b>
+                  </div>
+                  <p>Cores: 8Threads: 16Base Clock: 3.8 GHzTurbo Clock: 4.6 GHzOverclocking: Yes, 5.0-5.3 GHz typicalL3 Cache: 16 MBTDP: 65 W
+                    REASONS TO BUY
+                    +The best Integrated GPU
+                    +Excellent thermals and power consumption
+                    +Strong all round performance
+                    REASONS TO AVOID
+                    -Lacks PCIe 4.0
+                    -Needs fast memory to be at its best
+                    -Expensive for an APU                                   
+                  </p>
+                  <a href="https://www.amazon.in/dp/B091J3NYVF?ref_=cm_sw_r_cp_ud_dp_HA7NHDMM1GVR2366TEW7" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/4Cpu/6.Intel Core i5 12600K.jpg" class="cpuimg6" />
+                  <h2>Intel Core i5 12600K</h2>
+                  <div class="price">
+                    <b><h4>₹34,990</h4></b>
+                  </div>
+                  <p>Cores: 6+4Threads: 16Base Clock: 3.7 GHz P-core, 2.8 GHz E-coreBoost Clock: 4.9 GHz P-core, 3.6 GHz E-coreOverclocking: YesL3 Cache: 20 MBTDP: 125 W
+                    REASONS TO BUY
+                    +The best CPU for gaming in 2021
+                    +Faster than the Core i9 11900K
+                    +A more efficient Alder Lake chip
+                    REASONS TO AVOID
+                    -Still more power hungry than Ryzen
+                    -Doesn't play nice with some games                    
+                  </p>
+                  <a href="https://www.amazon.in/dp/B09FX4D72T?ref_=cm_sw_r_cp_ud_dp_XR0V1TGQ45X89RPMFWAB" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added To Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>  
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/4Cpu/7AMD Ryzen 9 5900X.jpg" class="cpuimg7" />
+                  <h2>AMD Ryzen 9 5900X</h2>
+                  <div class="price">
+                    <b><h4>38,299</h4></b>
+                  </div>
+                  <p>Cores: 12Threads: 24Base Clock: 3.7 GHzBoost Clock: 4.8 GHzOverclocking: YesL3 Cache: 64 MBTDP: 105 W 
+                    REASONS TO BUY
+                    +Great gaming performance
+                    +Fast and efficient architecture
+                    +Affordable platform
+                    REASONS TO AVOID
+                    -Needs a proper 3rd-party cooler                    
+                  </p>
+                  <a href="https://www.amazon.in/dp/B08164VTWH?ref_=cm_sw_r_cp_ud_dp_QQYGA38WE2JP58WZKPYA" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>         
+            <div class="col-12 col-lg-3 col-md-6 ">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img src="Images/4Cpu/8Intel Core i9 12900K.jpg" class="cpuimg8" />
+                  <h2>Intel Core i9 12900K </h2>
+                  <div class="price">
+                    <b><h4>₹62,999                    </h4></b>
+                  </div>
+                  <p>Cores: 8+8Threads: 24Base Clock: 3.2 GHz P-core, 2.4 GHz E-coreBoost Clock: 5.2 GHz P-core, 3.9 GHz E-coreOverclocking: YesL3 Cache: 30 MBTDP: 125 W
+                    REASONS TO BUY
+                    +Incredible single-threaded performance
+                    +Much improved multithreaded ability
+                    +Big leap for Intel's Core CPUs
+                    +The best desktop platform with DDR5 and PCIe 5.0 support
+                    REASONS TO AVOID
+                    -Some games don't play nicely with Alder Lake yet
+                    -High power consumption
+                    -Potentially high platform costs at launch                    
+                  </p>
+                  <a href="https://www.amazon.in/dp/B09FXDLX95?ref_=cm_sw_r_cp_ud_dp_EZNYTV9N0QFP7YS7W8YE" target="_blank"  style="color: #9c0000";>*moreinfo</a>
+                  <button class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added">Added to Cart</span>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-box"></i>
+                  </button>
+                  
+                </div>
+              </div>
+             </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+         
+    <script src="Javascript.js"></script>
+    <script>
+      let cartItem = [];
+
+      function addToCart(name,price){
+        console.log("opopopopo")
+        data = {
+          'name':name,
+          'price':price
+        }
+        cartItem.push(data)
+          console.log(JSON.stringify(cartItem))
+          localStorage.setItem("cartItem", JSON.stringify(cartItem));
+      }
+    </script>
+
+  </body>
+</html>
